@@ -9,7 +9,6 @@
 #import "LocationViewController.h"
 #import "LocationViewModel.h"
 #import "LocationTableViewCell.h"
-#import "TestModel.h"
 
 @interface LocationViewController ()
 @property (nonatomic, strong) UITableView   *provinceList;
@@ -21,9 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Location";
-    
-
-    
     self.view.backgroundColor = [UIColor whiteColor];
     [self initView];
     [self.viewModel requestNetwork:nil completion:^(id obj) {

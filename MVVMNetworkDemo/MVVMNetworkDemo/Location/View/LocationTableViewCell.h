@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class TestModel;
+@class LocationModel;
 
 @interface LocationTableViewCell : UITableViewCell
-@property (nonatomic, strong) TestModel *locationModel;
+@property (nonatomic, strong) LocationModel *locationModel;
 @end

@@ -1,5 +1,5 @@
 //
-//  TestModel.h
+//  LocationModel.h
 //  MVVMNetworkDemo
 //
 //  Created by liuxi on 16/5/31.
@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TestModel : NSObject
-
+@interface LocationModel : NSObject
 @property (nonatomic, copy) NSString    *fullName;
 @property (nonatomic,copy) NSString *name;
 @end

@@ -9,7 +9,7 @@
 #import "LocationViewModel.h"
 #import "LocationTableViewCell.h"
 #import "LocationApi.h"
-#import "TestModel.h"
+#import "LocationModel.h"
 @interface LocationViewModel ()
 @property (nonatomic, strong) NSMutableArray    *dataArray;
 
@@ -22,7 +22,6 @@
     [api startWithBlockSuccess:^(__kindof SYBaseRequest *request) {
         NSLog(@"%@",request.responseJSONObject);
         self.dataArray = [self dataAnalysisFromJson:request.responseJSONObject request:request];
-        
         if (completion) {
             completion(@(YES));
         }
@@ -35,7 +34,7 @@
 - (id)dataAnalysisFromJson:(id)json request:(SYBaseRequest *)request {
     if ([json[@"code"] integerValue] == 0){
         //进行数据解析
-        return [NSArray yy_modelArrayWithClass:[TestModel class] json:json[@"str"][@"regions"]];    }
+        return [NSArray yy_modelArrayWithClass:[LocationModel class] json:json[@"str"][@"regions"]];    }
     return nil;
 }
 

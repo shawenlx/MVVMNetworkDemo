@@ -117,7 +117,7 @@
 		5167654D1CFD1FB700301E59 /* LocationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167654C1CFD1FB700301E59 /* LocationViewModel.m */; };
 		516765501CFD215900301E59 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167654F1CFD215900301E59 /* LocationTableViewCell.m */; };
 		516765561CFD2AA800301E59 /* LocationApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765551CFD2AA800301E59 /* LocationApi.m */; };
-		516765591CFD831000301E59 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765581CFD831000301E59 /* TestModel.m */; };
+		5167655C1CFD899400301E59 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167655B1CFD899400301E59 /* LocationModel.m */; };
 		516EBAE91CFC419F002A4E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAE81CFC419F002A4E86 /* main.m */; };
 		516EBAEC1CFC419F002A4E86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAEB1CFC419F002A4E86 /* AppDelegate.m */; };
 		516EBAEF1CFC419F002A4E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAEE1CFC419F002A4E86 /* ViewController.m */; };
@@ -382,8 +382,8 @@
 		5167654F1CFD215900301E59 /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewCell.m; sourceTree = "<group>"; };
 		516765541CFD2AA800301E59 /* LocationApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationApi.h; sourceTree = "<group>"; };
 		516765551CFD2AA800301E59 /* LocationApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationApi.m; sourceTree = "<group>"; };
-		516765571CFD831000301E59 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
-		516765581CFD831000301E59 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		5167655A1CFD899400301E59 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		5167655B1CFD899400301E59 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
 		516EBAE41CFC419F002A4E86 /* MVVMNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516EBAE81CFC419F002A4E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		516EBAEA1CFC419F002A4E86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -785,8 +785,8 @@
 		516764E41CFD1B6300301E59 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				516765571CFD831000301E59 /* TestModel.h */,
-				516765581CFD831000301E59 /* TestModel.m */,
+				5167655A1CFD899400301E59 /* LocationModel.h */,
+				5167655B1CFD899400301E59 /* LocationModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1234,7 +1234,6 @@
 				5167653C1CFD1E6A00301E59 /* MJRefreshHeader.m in Sources */,
 				516764C21CFD134100301E59 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				516764D21CFD134100301E59 /* UIImage+YYWebImage.m in Sources */,
-				516765591CFD831000301E59 /* TestModel.m in Sources */,
 				516764A61CFD134100301E59 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				516764961CFD134100301E59 /* AFImageDownloader.m in Sources */,
 				516764A51CFD134100301E59 /* IQKeyboardManager.m in Sources */,
@@ -1287,6 +1286,7 @@
 				516764CE1CFD134100301E59 /* _YYWebImageSetter.m in Sources */,
 				516764D51CFD134100301E59 /* YYFrameImage.m in Sources */,
 				516764A81CFD134100301E59 /* IQBarButtonItem.m in Sources */,
+				5167655C1CFD899400301E59 /* LocationModel.m in Sources */,
 				516765391CFD1E6A00301E59 /* MJRefreshBackFooter.m in Sources */,
 				516764B91CFD134100301E59 /* SYBaseRequest.m in Sources */,
 				516765301CFD1E6A00301E59 /* MJProperty.m in Sources */,
