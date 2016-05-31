@@ -26,15 +26,19 @@
             completion(@(YES));
         }
     } failure:^(__kindof SYBaseRequest *request, NSError *error) {
-        
+        if (failure) {
+            failure(@(YES));
+        }
     }];
     
 }
 
 - (id)dataAnalysisFromJson:(id)json request:(SYBaseRequest *)request {
+    //该接口code == 0 代表成功
     if ([json[@"code"] integerValue] == 0){
         //进行数据解析
-        return [NSArray yy_modelArrayWithClass:[LocationModel class] json:json[@"str"][@"regions"]];    }
+        return [NSArray yy_modelArrayWithClass:[LocationModel class] json:json[@"str"][@"regions"]];
+    }
     return nil;
 }
 
