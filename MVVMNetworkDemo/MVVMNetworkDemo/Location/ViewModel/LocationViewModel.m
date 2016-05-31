@@ -9,10 +9,10 @@
 #import "LocationViewModel.h"
 #import "LocationTableViewCell.h"
 #import "LocationApi.h"
-
-
+#import "TestModel.h"
 @interface LocationViewModel ()
 @property (nonatomic, strong) NSMutableArray    *dataArray;
+
 @end
 
 @implementation LocationViewModel
@@ -21,8 +21,11 @@
     LocationApi *api = [[LocationApi alloc]initWithAreaID:@"0"];    
     [api startWithBlockSuccess:^(__kindof SYBaseRequest *request) {
         NSLog(@"%@",request.responseJSONObject);
-        [self dataAnalysisFromJson:request.responseJSONObject request:request];
+        self.dataArray = [self dataAnalysisFromJson:request.responseJSONObject request:request];
         
+        if (completion) {
+            completion(@(YES));
+        }
     } failure:^(__kindof SYBaseRequest *request, NSError *error) {
         
     }];
@@ -30,6 +33,9 @@
 }
 
 - (id)dataAnalysisFromJson:(id)json request:(SYBaseRequest *)request {
+    if ([json[@"code"] integerValue] == 0){
+        //进行数据解析
+        return [NSArray yy_modelArrayWithClass:[TestModel class] json:json[@"str"][@"regions"]];    }
     return nil;
 }
 
@@ -53,10 +59,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [tableView fd_heightForCellWithIdentifier:@"cell" cacheByIndexPath:indexPath configuration:^(id cell) {
-        // configurations
-        
-    }];
+    return 50;
 }
 #pragma mark - DZNEmptyDataSetSource Methods
 

@@ -1,19 +1,19 @@
 //
-//  LocationModel.m
+//  TestModel.m
 //  MVVMNetworkDemo
 //
 //  Created by liuxi on 16/5/31.
 //  Copyright © 2016年 liuxi. All rights reserved.
 //
 
-#import "LocationModel.h"
+#import "TestModel.h"
 
-@implementation LocationModel
+@implementation TestModel
 + (NSDictionary *)modelCustomPropertyMapper {
-    return @{@"ID" : @"id", @"province" : @"name"};
+    return @{@"fullName" : @"FullName"};
 }
 
 + (NSArray *)modelPropertyWhitelist {
-    return @[@"ID", @"province"];
+    return @[@"fullName", @"name"];
 }
 @end

@@ -9,6 +9,7 @@
 #import "LocationViewController.h"
 #import "LocationViewModel.h"
 #import "LocationTableViewCell.h"
+#import "TestModel.h"
 
 @interface LocationViewController ()
 @property (nonatomic, strong) UITableView   *provinceList;
@@ -20,34 +21,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Location";
+    
+
+    
     self.view.backgroundColor = [UIColor whiteColor];
     [self initView];
     [self.viewModel requestNetwork:nil completion:^(id obj) {
-        [self.provinceList reloadData];
+        [_provinceList reloadData];
     } failure:^(id obj) {
         
     }];
 }
 
 - (void)initView {
-    __weak typeof(self.view) ws = self.view;
-    _provinceList = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
+    _provinceList = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
     _provinceList.delegate = self.viewModel;
     _provinceList.dataSource = self.viewModel;
-    _provinceList.showsVerticalScrollIndicator = NO;
-    _provinceList.showsHorizontalScrollIndicator = NO;
     _provinceList.separatorStyle = UITableViewCellSeparatorStyleNone;
     [_provinceList registerClass:[LocationTableViewCell class] forCellReuseIdentifier:@"cell"];
-    _provinceList.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
-    [ws addSubview:_provinceList];
     
-    //设置布局约束
-    [_provinceList mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(ws.mas_top);
-        make.leading.mas_equalTo(ws.mas_leading);
-        make.trailing.mas_equalTo(ws.mas_trailing);
-        make.bottom.mas_equalTo(ws.mas_bottom);
-    }];
+    [self.view addSubview:_provinceList];
+//    
+//    //设置布局约束
+//    [_provinceList mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.mas_equalTo(ws.mas_top);
+//        make.leading.mas_equalTo(ws.mas_leading);
+//        make.trailing.mas_equalTo(ws.mas_trailing);
+//        make.bottom.mas_equalTo(ws.mas_bottom);
+//    }];
     
 }
 

@@ -7,7 +7,7 @@
 //
 
 #import "LocationTableViewCell.h"
-#import "LocationModel.h"
+#import "TestModel.h"
 
 @interface LocationTableViewCell ()
 @property (nonatomic, strong) UILabel   *provinceLabel; //省名称
@@ -38,9 +38,9 @@
     _provinceLabel.text = nil;
 }
 
-- (void)setLocationModel:(LocationModel *)locationModel {
+- (void)setLocationModel:(TestModel *)locationModel {
     _locationModel = locationModel;
-    self.provinceLabel.text = locationModel.province;
+    self.provinceLabel.text = locationModel.name;
 }
 
 @end

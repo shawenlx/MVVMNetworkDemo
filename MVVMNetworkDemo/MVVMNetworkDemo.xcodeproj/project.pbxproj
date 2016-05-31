@@ -116,8 +116,8 @@
 		5167654A1CFD1E6A00301E59 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167652D1CFD1E6A00301E59 /* UIView+MJExtension.m */; };
 		5167654D1CFD1FB700301E59 /* LocationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167654C1CFD1FB700301E59 /* LocationViewModel.m */; };
 		516765501CFD215900301E59 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167654F1CFD215900301E59 /* LocationTableViewCell.m */; };
-		516765531CFD220300301E59 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765521CFD220300301E59 /* LocationModel.m */; };
 		516765561CFD2AA800301E59 /* LocationApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765551CFD2AA800301E59 /* LocationApi.m */; };
+		516765591CFD831000301E59 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765581CFD831000301E59 /* TestModel.m */; };
 		516EBAE91CFC419F002A4E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAE81CFC419F002A4E86 /* main.m */; };
 		516EBAEC1CFC419F002A4E86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAEB1CFC419F002A4E86 /* AppDelegate.m */; };
 		516EBAEF1CFC419F002A4E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAEE1CFC419F002A4E86 /* ViewController.m */; };
@@ -380,10 +380,10 @@
 		5167654C1CFD1FB700301E59 /* LocationViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewModel.m; sourceTree = "<group>"; };
 		5167654E1CFD215900301E59 /* LocationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewCell.h; sourceTree = "<group>"; };
 		5167654F1CFD215900301E59 /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewCell.m; sourceTree = "<group>"; };
-		516765511CFD220300301E59 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
-		516765521CFD220300301E59 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
 		516765541CFD2AA800301E59 /* LocationApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationApi.h; sourceTree = "<group>"; };
 		516765551CFD2AA800301E59 /* LocationApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationApi.m; sourceTree = "<group>"; };
+		516765571CFD831000301E59 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		516765581CFD831000301E59 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		516EBAE41CFC419F002A4E86 /* MVVMNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516EBAE81CFC419F002A4E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		516EBAEA1CFC419F002A4E86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -785,8 +785,8 @@
 		516764E41CFD1B6300301E59 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				516765511CFD220300301E59 /* LocationModel.h */,
-				516765521CFD220300301E59 /* LocationModel.m */,
+				516765571CFD831000301E59 /* TestModel.h */,
+				516765581CFD831000301E59 /* TestModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1233,8 +1233,8 @@
 				516765451CFD1E6A00301E59 /* MJRefreshStateHeader.m in Sources */,
 				5167653C1CFD1E6A00301E59 /* MJRefreshHeader.m in Sources */,
 				516764C21CFD134100301E59 /* UITableView+FDIndexPathHeightCache.m in Sources */,
-				516765531CFD220300301E59 /* LocationModel.m in Sources */,
 				516764D21CFD134100301E59 /* UIImage+YYWebImage.m in Sources */,
+				516765591CFD831000301E59 /* TestModel.m in Sources */,
 				516764A61CFD134100301E59 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				516764961CFD134100301E59 /* AFImageDownloader.m in Sources */,
 				516764A51CFD134100301E59 /* IQKeyboardManager.m in Sources */,
