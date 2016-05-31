@@ -34,4 +34,7 @@
 #import "Constants.h"
 //弹出框
 #import "MBProgressHUD.h" 
+//下拉控件
+#import "MJRefresh.h"
+#import "UIScrollView+MJRefresh.h"
 #endif /* PrefixHeader_pch */

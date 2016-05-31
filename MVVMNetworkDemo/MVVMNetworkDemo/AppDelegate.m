@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LocationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LocationViewController *vc = [[LocationViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nav;
     return YES;
 }
 
