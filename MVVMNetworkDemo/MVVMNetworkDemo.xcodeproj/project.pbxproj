@@ -118,6 +118,20 @@
 		516765501CFD215900301E59 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167654F1CFD215900301E59 /* LocationTableViewCell.m */; };
 		516765561CFD2AA800301E59 /* LocationApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765551CFD2AA800301E59 /* LocationApi.m */; };
 		5167655C1CFD899400301E59 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167655B1CFD899400301E59 /* LocationModel.m */; };
+		516765801CFD8A8900301E59 /* BCORMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765621CFD8A8900301E59 /* BCORMHelper.m */; };
+		516765811CFD8A8900301E59 /* BCSqlParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765641CFD8A8900301E59 /* BCSqlParameter.m */; };
+		516765821CFD8A8900301E59 /* BCConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765671CFD8A8900301E59 /* BCConstraints.m */; };
+		516765831CFD8A8900301E59 /* BCReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765691CFD8A8900301E59 /* BCReferences.m */; };
+		516765841CFD8A8900301E59 /* BCSqlInt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167656C1CFD8A8900301E59 /* BCSqlInt.m */; };
+		516765851CFD8A8900301E59 /* BCSqliteType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167656E1CFD8A8900301E59 /* BCSqliteType.m */; };
+		516765861CFD8A8900301E59 /* BCSqlReal.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765701CFD8A8900301E59 /* BCSqlReal.m */; };
+		516765871CFD8A8900301E59 /* BCSqlText.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765721CFD8A8900301E59 /* BCSqlText.m */; };
+		516765881CFD8A8900301E59 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765751CFD8A8900301E59 /* FMDatabase.m */; };
+		516765891CFD8A8900301E59 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765771CFD8A8900301E59 /* FMDatabaseAdditions.m */; };
+		5167658A1CFD8A8900301E59 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 516765791CFD8A8900301E59 /* FMDatabasePool.m */; };
+		5167658B1CFD8A8900301E59 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167657B1CFD8A8900301E59 /* FMDatabaseQueue.m */; };
+		5167658C1CFD8A8900301E59 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5167657E1CFD8A8900301E59 /* FMResultSet.m */; };
+		5167658D1CFD8A8900301E59 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5167657F1CFD8A8900301E59 /* Info.plist */; };
 		516EBAE91CFC419F002A4E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAE81CFC419F002A4E86 /* main.m */; };
 		516EBAEC1CFC419F002A4E86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAEB1CFC419F002A4E86 /* AppDelegate.m */; };
 		516EBAEF1CFC419F002A4E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EBAEE1CFC419F002A4E86 /* ViewController.m */; };
@@ -384,6 +398,37 @@
 		516765551CFD2AA800301E59 /* LocationApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationApi.m; sourceTree = "<group>"; };
 		5167655A1CFD899400301E59 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
 		5167655B1CFD899400301E59 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		5167655E1CFD8A8900301E59 /* BCDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCDB.h; sourceTree = "<group>"; };
+		5167655F1CFD8A8900301E59 /* BCORMEntityProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCORMEntityProtocol.h; sourceTree = "<group>"; };
+		516765601CFD8A8900301E59 /* BCORMHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCORMHeader.h; sourceTree = "<group>"; };
+		516765611CFD8A8900301E59 /* BCORMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCORMHelper.h; sourceTree = "<group>"; };
+		516765621CFD8A8900301E59 /* BCORMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCORMHelper.m; sourceTree = "<group>"; };
+		516765631CFD8A8900301E59 /* BCSqlParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSqlParameter.h; sourceTree = "<group>"; };
+		516765641CFD8A8900301E59 /* BCSqlParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSqlParameter.m; sourceTree = "<group>"; };
+		516765661CFD8A8900301E59 /* BCConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCConstraints.h; sourceTree = "<group>"; };
+		516765671CFD8A8900301E59 /* BCConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCConstraints.m; sourceTree = "<group>"; };
+		516765681CFD8A8900301E59 /* BCReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCReferences.h; sourceTree = "<group>"; };
+		516765691CFD8A8900301E59 /* BCReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCReferences.m; sourceTree = "<group>"; };
+		5167656B1CFD8A8900301E59 /* BCSqlInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSqlInt.h; sourceTree = "<group>"; };
+		5167656C1CFD8A8900301E59 /* BCSqlInt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSqlInt.m; sourceTree = "<group>"; };
+		5167656D1CFD8A8900301E59 /* BCSqliteType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSqliteType.h; sourceTree = "<group>"; };
+		5167656E1CFD8A8900301E59 /* BCSqliteType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSqliteType.m; sourceTree = "<group>"; };
+		5167656F1CFD8A8900301E59 /* BCSqlReal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSqlReal.h; sourceTree = "<group>"; };
+		516765701CFD8A8900301E59 /* BCSqlReal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSqlReal.m; sourceTree = "<group>"; };
+		516765711CFD8A8900301E59 /* BCSqlText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSqlText.h; sourceTree = "<group>"; };
+		516765721CFD8A8900301E59 /* BCSqlText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSqlText.m; sourceTree = "<group>"; };
+		516765741CFD8A8900301E59 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		516765751CFD8A8900301E59 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		516765761CFD8A8900301E59 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		516765771CFD8A8900301E59 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		516765781CFD8A8900301E59 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		516765791CFD8A8900301E59 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5167657A1CFD8A8900301E59 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5167657B1CFD8A8900301E59 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5167657C1CFD8A8900301E59 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		5167657D1CFD8A8900301E59 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5167657E1CFD8A8900301E59 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5167657F1CFD8A8900301E59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516EBAE41CFC419F002A4E86 /* MVVMNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516EBAE81CFC419F002A4E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		516EBAEA1CFC419F002A4E86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -939,6 +984,67 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		5167655D1CFD8A8900301E59 /* BCSqliteORM */ = {
+			isa = PBXGroup;
+			children = (
+				5167655E1CFD8A8900301E59 /* BCDB.h */,
+				5167655F1CFD8A8900301E59 /* BCORMEntityProtocol.h */,
+				516765601CFD8A8900301E59 /* BCORMHeader.h */,
+				516765611CFD8A8900301E59 /* BCORMHelper.h */,
+				516765621CFD8A8900301E59 /* BCORMHelper.m */,
+				516765631CFD8A8900301E59 /* BCSqlParameter.h */,
+				516765641CFD8A8900301E59 /* BCSqlParameter.m */,
+				516765651CFD8A8900301E59 /* SqliteConstraints */,
+				5167656A1CFD8A8900301E59 /* SqliteType */,
+			);
+			path = BCSqliteORM;
+			sourceTree = "<group>";
+		};
+		516765651CFD8A8900301E59 /* SqliteConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				516765661CFD8A8900301E59 /* BCConstraints.h */,
+				516765671CFD8A8900301E59 /* BCConstraints.m */,
+				516765681CFD8A8900301E59 /* BCReferences.h */,
+				516765691CFD8A8900301E59 /* BCReferences.m */,
+			);
+			path = SqliteConstraints;
+			sourceTree = "<group>";
+		};
+		5167656A1CFD8A8900301E59 /* SqliteType */ = {
+			isa = PBXGroup;
+			children = (
+				5167656B1CFD8A8900301E59 /* BCSqlInt.h */,
+				5167656C1CFD8A8900301E59 /* BCSqlInt.m */,
+				5167656D1CFD8A8900301E59 /* BCSqliteType.h */,
+				5167656E1CFD8A8900301E59 /* BCSqliteType.m */,
+				5167656F1CFD8A8900301E59 /* BCSqlReal.h */,
+				516765701CFD8A8900301E59 /* BCSqlReal.m */,
+				516765711CFD8A8900301E59 /* BCSqlText.h */,
+				516765721CFD8A8900301E59 /* BCSqlText.m */,
+			);
+			path = SqliteType;
+			sourceTree = "<group>";
+		};
+		516765731CFD8A8900301E59 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				516765741CFD8A8900301E59 /* FMDatabase.h */,
+				516765751CFD8A8900301E59 /* FMDatabase.m */,
+				516765761CFD8A8900301E59 /* FMDatabaseAdditions.h */,
+				516765771CFD8A8900301E59 /* FMDatabaseAdditions.m */,
+				516765781CFD8A8900301E59 /* FMDatabasePool.h */,
+				516765791CFD8A8900301E59 /* FMDatabasePool.m */,
+				5167657A1CFD8A8900301E59 /* FMDatabaseQueue.h */,
+				5167657B1CFD8A8900301E59 /* FMDatabaseQueue.m */,
+				5167657C1CFD8A8900301E59 /* FMDB.h */,
+				5167657D1CFD8A8900301E59 /* FMResultSet.h */,
+				5167657E1CFD8A8900301E59 /* FMResultSet.m */,
+				5167657F1CFD8A8900301E59 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		516EBADB1CFC419F002A4E86 = {
 			isa = PBXGroup;
 			children = (
@@ -1012,6 +1118,8 @@
 		516EBB1A1CFC41C9002A4E86 /* library */ = {
 			isa = PBXGroup;
 			children = (
+				5167655D1CFD8A8900301E59 /* BCSqliteORM */,
+				516765731CFD8A8900301E59 /* fmdb */,
 				516764EB1CFD1E6A00301E59 /* MJExtension */,
 				516765011CFD1E6A00301E59 /* MJRefresh */,
 				516763D61CFD134100301E59 /* AFNetworking */,
@@ -1182,6 +1290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5167658D1CFD8A8900301E59 /* Info.plist in Resources */,
 				516764C61CFD134100301E59 /* LICENSE in Resources */,
 				516EBAF71CFC419F002A4E86 /* LaunchScreen.storyboard in Resources */,
 				516765461CFD1E6A00301E59 /* MJRefresh.bundle in Resources */,
@@ -1221,6 +1330,7 @@
 				5167649A1CFD134100301E59 /* UIImageView+AFNetworking.m in Sources */,
 				516EBAEF1CFC419F002A4E86 /* ViewController.m in Sources */,
 				516764DA1CFD134100301E59 /* YYWebImageManager.m in Sources */,
+				516765851CFD8A8900301E59 /* BCSqliteType.m in Sources */,
 				516765331CFD1E6A00301E59 /* NSObject+MJClass.m in Sources */,
 				516765371CFD1E6A00301E59 /* NSString+MJExtension.m in Sources */,
 				516764BF1CFD134100301E59 /* SYNetworkConfig.m in Sources */,
@@ -1228,6 +1338,7 @@
 				5167649B1CFD134100301E59 /* UIProgressView+AFNetworking.m in Sources */,
 				5167652E1CFD1E6A00301E59 /* MJExtensionConst.m in Sources */,
 				516764D71CFD134100301E59 /* YYImageCoder.m in Sources */,
+				516765811CFD8A8900301E59 /* BCSqlParameter.m in Sources */,
 				516765421CFD1E6A00301E59 /* MJRefreshBackStateFooter.m in Sources */,
 				516764A11CFD134100301E59 /* IQUITextFieldView+Additions.m in Sources */,
 				516765451CFD1E6A00301E59 /* MJRefreshStateHeader.m in Sources */,
@@ -1246,6 +1357,7 @@
 				516EBAEC1CFC419F002A4E86 /* AppDelegate.m in Sources */,
 				516764D91CFD134100301E59 /* YYImageCache.m in Sources */,
 				516764CA1CFD134100301E59 /* YYKVStorage.m in Sources */,
+				516765801CFD8A8900301E59 /* BCORMHelper.m in Sources */,
 				516764B61CFD134100301E59 /* View+MASAdditions.m in Sources */,
 				516764A91CFD134100301E59 /* IQTitleBarButtonItem.m in Sources */,
 				516764D81CFD134100301E59 /* YYSpriteSheetImage.m in Sources */,
@@ -1263,8 +1375,10 @@
 				516764C91CFD134100301E59 /* YYDiskCache.m in Sources */,
 				516765481CFD1E6A00301E59 /* UIScrollView+MJExtension.m in Sources */,
 				5167649F1CFD134100301E59 /* IQNSArray+Sort.m in Sources */,
+				516765821CFD8A8900301E59 /* BCConstraints.m in Sources */,
 				516764A31CFD134100301E59 /* IQUIViewController+Additions.m in Sources */,
 				516764D31CFD134100301E59 /* UIImageView+YYWebImage.m in Sources */,
+				516765871CFD8A8900301E59 /* BCSqlText.m in Sources */,
 				516765441CFD1E6A00301E59 /* MJRefreshNormalHeader.m in Sources */,
 				5167653F1CFD1E6A00301E59 /* MJRefreshAutoStateFooter.m in Sources */,
 				516765411CFD1E6A00301E59 /* MJRefreshBackNormalFooter.m in Sources */,
@@ -1285,7 +1399,9 @@
 				516764B41CFD134100301E59 /* NSArray+MASAdditions.m in Sources */,
 				516764CE1CFD134100301E59 /* _YYWebImageSetter.m in Sources */,
 				516764D51CFD134100301E59 /* YYFrameImage.m in Sources */,
+				516765891CFD8A8900301E59 /* FMDatabaseAdditions.m in Sources */,
 				516764A81CFD134100301E59 /* IQBarButtonItem.m in Sources */,
+				516765831CFD8A8900301E59 /* BCReferences.m in Sources */,
 				5167655C1CFD899400301E59 /* LocationModel.m in Sources */,
 				516765391CFD1E6A00301E59 /* MJRefreshBackFooter.m in Sources */,
 				516764B91CFD134100301E59 /* SYBaseRequest.m in Sources */,
@@ -1295,6 +1411,7 @@
 				516764CF1CFD134100301E59 /* CALayer+YYWebImage.m in Sources */,
 				516764B11CFD134100301E59 /* MASLayoutConstraint.m in Sources */,
 				5167649D1CFD134100301E59 /* UIWebView+AFNetworking.m in Sources */,
+				5167658B1CFD8A8900301E59 /* FMDatabaseQueue.m in Sources */,
 				516764BD1CFD134100301E59 /* SYChainRequestManager.m in Sources */,
 				516764AE1CFD134100301E59 /* MASCompositeConstraint.m in Sources */,
 				516764C31CFD134100301E59 /* UITableView+FDKeyedHeightCache.m in Sources */,
@@ -1302,6 +1419,7 @@
 				516764EA1CFD1C1400301E59 /* LocationViewController.m in Sources */,
 				516764CD1CFD134100301E59 /* YYClassInfo.m in Sources */,
 				516764BC1CFD134100301E59 /* SYChainRequest.m in Sources */,
+				516765841CFD8A8900301E59 /* BCSqlInt.m in Sources */,
 				516764B01CFD134100301E59 /* MASConstraintMaker.m in Sources */,
 				516764BB1CFD134100301E59 /* SYBatchRequestManager.m in Sources */,
 				516764CC1CFD134100301E59 /* NSObject+YYModel.m in Sources */,
@@ -1309,6 +1427,7 @@
 				516764901CFD134100301E59 /* AFNetworkReachabilityManager.m in Sources */,
 				516764A41CFD134100301E59 /* IQUIWindow+Hierarchy.m in Sources */,
 				516764D61CFD134100301E59 /* YYImage.m in Sources */,
+				516765861CFD8A8900301E59 /* BCSqlReal.m in Sources */,
 				516764911CFD134100301E59 /* AFSecurityPolicy.m in Sources */,
 				5167648F1CFD134100301E59 /* AFHTTPSessionManager.m in Sources */,
 				516764D11CFD134100301E59 /* UIButton+YYWebImage.m in Sources */,
@@ -1316,14 +1435,17 @@
 				516EBAE91CFC419F002A4E86 /* main.m in Sources */,
 				516765341CFD1E6A00301E59 /* NSObject+MJCoding.m in Sources */,
 				516764AB1CFD134100301E59 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				5167658A1CFD8A8900301E59 /* FMDatabasePool.m in Sources */,
 				516764971CFD134100301E59 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				516EBC341CFC4716002A4E86 /* YSRequestAccessory.m in Sources */,
 				516764CB1CFD134100301E59 /* YYMemoryCache.m in Sources */,
 				516764DB1CFD134100301E59 /* YYWebImageOperation.m in Sources */,
 				5167654A1CFD1E6A00301E59 /* UIView+MJExtension.m in Sources */,
+				5167658C1CFD8A8900301E59 /* FMResultSet.m in Sources */,
 				516764B21CFD134100301E59 /* MASViewAttribute.m in Sources */,
 				5167653A1CFD1E6A00301E59 /* MJRefreshComponent.m in Sources */,
 				5167653B1CFD1E6A00301E59 /* MJRefreshFooter.m in Sources */,
+				516765881CFD8A8900301E59 /* FMDatabase.m in Sources */,
 				5167653E1CFD1E6A00301E59 /* MJRefreshAutoNormalFooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
